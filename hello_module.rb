@@ -5,11 +5,11 @@ module HelloModule
     puts "Hello #{name}."
   end
 
-  module_function :hello
+  # module_function :hello
 end
 
-p HelloModule::Version
-HelloModule.hello("Alice")
+# p HelloModule::Version
+# HelloModule.hello("Alice")
 
 include HelloModule
 p Version
